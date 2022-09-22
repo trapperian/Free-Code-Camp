@@ -1,6 +1,6 @@
 # arithmetic arranger.  This takes math strings horizontal and returns them in vertical
 import re
-
+"""
 # this function converts strings to integers and does the arithmetic in the event show_answers=True
 def do_the_math(input_list):
     if type(input_list) != list:
@@ -51,6 +51,7 @@ def string_manipulation(input_list):
             continue
         if operation == "+":
             item = i.split(operation)
+            print(item[0] + "/n + " + item[1] + "/n ------")
 
         elif operation == "-":
             item = i.split(operation)
@@ -60,5 +61,6 @@ def string_manipulation(input_list):
 
         elif operation == "/":
             item = i.split(operation)
+"""
 # test case
-
+print("25 \n + 34 \n ------")
